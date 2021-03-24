@@ -14,12 +14,13 @@ npm install --save-dev @posthog/plugin-globals
 
 Then add the following to your `tsconfig.json`:
 
-```json5
+```json
 {
-    "include": [
-      /* keep exisitng entries like "src" or "**.ts" and add: */
-      "./node_modules/@posthog/plugin-globals/globals.d.ts"
+  "compilerOptions": {
+    "types": [
+      "../@posthog/plugin-globals"
     ]
+  }
 }
 ```
 
