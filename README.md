@@ -1,6 +1,6 @@
 ## PostHog Plugin Globals
 
-[![npm package](https://img.shields.io/npm/v/@posthog/plugin-scaffold?style=flat-square)](https://www.npmjs.com/package/@posthog/plugin-globals)
+[![npm package](https://img.shields.io/npm/v/@posthog/plugin-globals?style=flat-square)](https://www.npmjs.com/package/@posthog/plugin-globals)
 [![MIT License](https://img.shields.io/badge/License-MIT-red.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 This package contains types for globals exposed to PostHog plugins.
